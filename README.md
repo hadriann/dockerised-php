@@ -1,12 +1,3 @@
-The Docker setup for PHP applications using PHP7-FPM and Nginx described in http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm
+This is a fork of https://github.com/mikechernev/dockerised-php.
 
-## Instructions
-1. Checkout the repository
-* ~~Create a record in your `hosts` file to point `php-docker.local` to your Docker environment~~
-* Run `docker-compose up`
-* ~~Navigate to php-docker.local:8080 in a browser~~
-* Navigate to localhost:8080
-
-That's it! You have your local PHP setup using Docker
-
-*Example of activated PHP logging* - https://github.com/mikechernev/dockerised-php/tree/feature/log-to-stdout
+The implementation is based on the description available at http://geekyplatypus.com/dockerise-your-php-application-with-nginx-and-php7-fpm/ and http://geekyplatypus.com/making-your-dockerised-php-application-even-better/.
